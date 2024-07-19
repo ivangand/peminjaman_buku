@@ -1,0 +1,942 @@
+/* Styling umum */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+/* Styling sidebar */
+.sidebar {
+    width: 250px;
+    background: #333;
+    color: white;
+    padding: 20px;
+    height: 100vh;
+    overflow-y: auto; /* Menambahkan scrollbar jika diperlukan */
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo h2 {
+    margin: 0;
+}
+
+.nav-menu {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-menu li {
+    margin-bottom: 10px;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-menu a:hover {
+    text-decoration: underline;
+}
+
+/* Styling konten utama */
+.main-content {
+    flex: 1;
+    padding: 20px;
+    height: 100vh;
+    overflow-y: auto; /* Menambahkan scrollbar jika diperlukan */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.feature {
+    width: 30%;
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.feature h2 {
+    margin-top: 0;
+}
+
+.about {
+    margin-bottom: 30px;
+}
+
+.testimonials {
+    margin-bottom: 30px;
+}
+
+.testimonial {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.testimonial p {
+    margin: 0;
+}
+
+.testimonial cite {
+    display: block;
+    text-align: right;
+    color: #777;
+}
+
+.contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact li {
+    margin-bottom: 10px;
+}
+
+/* Gaya Umum */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 100vh;
+}
+
+/* Container Utama */
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+/* Sidebar */
+.sidebar {
+    background: #333;
+    color: #fff;
+    width: 250px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.logo {
+    margin-bottom: 2rem;
+}
+
+.logo h2 {
+    color: #fff;
+}
+
+.nav-menu {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+}
+
+.nav-menu li {
+    width: 100%;
+}
+
+.nav-menu a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem;
+    text-align: center;
+    width: 100%;
+    transition: background 0.3s;
+}
+
+.nav-menu a:hover {
+    background: #555;
+}
+
+/* Main Content */
+.main-content {
+    background: #fff;
+    padding: 2rem;
+    width: 100%;
+    height: 100%;
+}
+
+.main-content h1 {
+    margin-top: 0;
+}
+
+/* Tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 2rem;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 0.75rem;
+    text-align: left;
+}
+
+table th {
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Admin Actions */
+.admin-actions {
+    margin-top: 2rem;
+}
+
+.admin-actions h2 {
+    color: #007bff;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.admin-actions form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.admin-actions label {
+    font-size: 1rem;
+    color: #333;
+}
+
+.admin-actions input[type="text"],
+.admin-actions input[type="number"] {
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.admin-actions .btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+.admin-actions .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Pesan */
+.message {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #c3e6cb;
+    border-radius: 0.25rem;
+}
+
+/* Gaya Umum */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+}
+
+/* Container Utama */
+.container {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+}
+
+/* Sidebar */
+.sidebar {
+    background: #007bff;
+    color: #fff;
+    padding: 2rem;
+    width: 250px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.sidebar h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li {
+    margin: 1rem 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+}
+
+.sidebar ul li a:hover {
+    color: #f4f4f4;
+}
+
+/* Content */
+.content {
+    flex: 1;
+    padding: 2rem;
+    background: #fff;
+    overflow-y: auto;
+}
+
+header {
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    color: #007bff;
+    font-size: 2rem;
+    margin: 0;
+}
+
+/* Tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 2rem;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 0.75rem;
+    text-align: left;
+}
+
+table th {
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* About Content */
+.about-content {
+    margin-top: 2rem;
+}
+
+.about-content p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+}
+
+.about-content ul {
+    list-style-type: disc;
+    margin-left: 2rem;
+}
+
+.about-content ul li {
+    margin-bottom: 0.5rem;
+}
+
+.about-content a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.about-content a:hover {
+    text-decoration: underline;
+}
+
+/* Gaya Umum */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Auth Container */
+.auth-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+}
+
+.auth-form {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.auth-form h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    color: #007bff;
+}
+
+.auth-form label {
+    font-size: 1rem;
+    color: #333;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.auth-form input[type="text"],
+.auth-form input[type="password"] {
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.auth-form .btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+.auth-form .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Pesan */
+.message {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #c3e6cb;
+    border-radius: 0.25rem;
+}
+
+.message a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.message a:hover {
+    text-decoration: underline;
+}
+
+/* Link */
+.auth-form a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.auth-form a:hover {
+    text-decoration: underline;
+}
+
+/* Sidebar */
+.sidebar {
+    background: #333;
+    color: #fff;
+    width: 250px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.logo {
+    margin-bottom: 2rem;
+}
+
+.logo h2 {
+    color: #fff;
+}
+
+.nav-menu {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+}
+
+.nav-menu li {
+    width: 100%;
+}
+
+.nav-menu a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem;
+    text-align: center;
+    width: 100%;
+    transition: background 0.3s;
+}
+
+.nav-menu a:hover {
+    background: #555;
+}
+
+/* Main Content */
+.main-content {
+    background: #fff;
+    padding: 2rem;
+    width: 100%;
+    height: 100%;
+}
+
+.main-content h1 {
+    margin-top: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+th, td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background: #007bff;
+    color: #fff;
+}
+
+td {
+    background: #f9f9f9;
+}
+
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.message {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #c3e6cb;
+    border-radius: 0.25rem;
+}
+
+/* Tombol Tambah Buku */
+.btn-add {
+    background-color: #28a745;
+    margin-bottom: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-add:hover {
+    background-color: #218838;
+}
+
+/* Modal */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    max-width: 600px;
+    border-radius: 8px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Formulir Tambah Buku di Modal */
+.modal-content form {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-content form label {
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.modal-content form input {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.modal-content form button {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.modal-content form button:hover {
+    background-color: #0056b3;
+}
+
+.message {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #c3e6cb;
+    border-radius: 0.25rem;
+}
+
+/* Styling untuk tabel dan tombol */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.table th {
+    background-color: #f4f4f4;
+    text-align: left;
+}
+
+.btn {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn-add {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.btn-borrow {
+    background-color: #2196F3;
+    color: white;
+}
+
+.btn-delete {
+    background-color: #f44336;
+    color: white;
+    margin-left: 8px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Styling umum */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    display: flex;
+}
+
+/* Styling sidebar */
+.sidebar {
+    width: 250px;
+    background: #333;
+    color: white;
+    padding: 20px;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo h2 {
+    margin: 0;
+}
+
+.nav-menu {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-menu li {
+    margin-bottom: 10px;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-menu a:hover {
+    text-decoration: underline;
+}
+
+/* Styling konten utama */
+.main-content {
+    flex: 1;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.feature {
+    width: 30%;
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.feature h2 {
+    margin-top: 0;
+}
+
+.about {
+    margin-bottom: 30px;
+}
+
+.testimonials {
+    margin-bottom: 30px;
+}
+
+.testimonial {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.testimonial p {
+    margin: 0;
+}
+
+.testimonial cite {
+    display: block;
+    text-align: right;
+    color: #777;
+}
+
+.contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact li {
+    margin-bottom: 10px;
+}
+
+/* Styling untuk halaman Tentang Website */
+.intro, .mission-vision, .features, .team, .contact {
+    margin-bottom: 30px;
+}
+
+.intro h2, .mission-vision h2, .features h2, .team h2, .contact h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.intro p, .mission-vision p, .features ul, .team p, .contact p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.features ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.features li {
+    margin-bottom: 10px;
+}
+
+.team {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.team-members {
+    display: flex;
+    justify-content: space-around;
+}
+
+.team-member {
+    text-align: center;
+}
+
+.team-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact li {
+    margin-bottom: 10px;
+}
+
